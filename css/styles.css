@@ -7474,6 +7474,7 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  color:blue
 }
 
 .ml-0,
@@ -10048,7 +10049,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/eng.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10059,7 +10060,7 @@ header.masthead h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 80vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
